@@ -11,7 +11,7 @@ router.get('/api/notes', (req, res) => {
 
 router.post('/api/notes', (req,res) => {
     var newNote = {
-        id : Math.floor(Math.random()) *757,
+        id : Math.floor(Math.random() *757),
         title: req.body.title,
         text: req.body.text,
     }
@@ -23,6 +23,16 @@ router.post('/api/notes', (req,res) => {
     res.json(db)
 });
 
+router.delete('/api/notes/:id', (req,res) => {
+
+    var emptyNotes = db.filter((curr) => (curr.id != req.params.id)) 
+    db = emptyNotes
+    fs.writeFileSync('./db/db.json', JSON.stringify(db), (error) => {
+        if (error) throw error;
+    })
+    console.log("Note deleted",db)
+    res.json(db)
+});
 
 
 module.exports = router;
