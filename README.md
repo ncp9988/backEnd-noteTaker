@@ -26,7 +26,7 @@
   [Repository](https://github.com/ncp9988/backEnd-noteTaker.git)
 
 ### Heroku
-  ![Heroku-deployed](https://murmuring-springs-25491.herokuapp.com/)
+  [Heroku-deployed](https://murmuring-springs-25491.herokuapp.com/)
 
 #### Email
   <a href="mailto:ncp9988@gmail.com"> Please feel free to reach me if you have any questions</a>
