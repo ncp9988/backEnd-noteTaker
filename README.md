@@ -36,5 +36,4 @@
   
   ![Functionality](https://github.com/ncp9988/backEnd-noteTaker/blob/main/Screen%20Shot%202022-01-06%20at%208.33.01%20PM.png)
   
-### Video
-  [Video](https://watch.screencastify.com/v/NWN3B1dACZvOUXGEl8au)
+
